@@ -32,20 +32,42 @@
           name="email"
           placeholder="enter your email"
           required
-          
         />
         <label id="number-label" for="nubmer">number</label>
         <input
-        type="number"
-        id="number"
-        name="number"
-        placeholder="enter you number"
-        <input type="number" id="tentacles" name="tentacles"
-       min="10" max="100">
-      />
-      
+          type="number"
+          id="number"
+          name="number"
+          placeholder="enter you number"
+          <input
+          type="number"
+          id="tentacles"
+          name="tentacles"
+          min="10"
+          max="100"
+        />
 
+        <select name="form-group" id="dropdown">
+          <option value="jss1">Jss1</option>
+          <option value="jss2">Jss2</option>
+          <option value="jss3">Jss3</option>
+          <option value="ss1">Ss1</option>
+        </select>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="male" name="gender" value="female" />
+        <label for="male">Female</label><br />
 
+        <input type="checkbox" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="checkbox" id="male" name="gender" value="female" />
+        <label for="male">Female</label><br />
+
+        <textarea id="textarea" name="comment" rows="4" cols="50">
+         Culpa quae perferendis blanditiis modi ut velit.
+        </textarea>
+
+        <button id="submit">Submit</button>
       </form>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
